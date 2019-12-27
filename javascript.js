@@ -41,7 +41,8 @@ function signIn(username, password){
     if (isUserValid(username, password)) {
         console.log(newsFeed);
     } else {
-        alert("Sorry, wrong username or password. Check the database out to see available accounts ");
+        alert("Sorry, wrong username or password.");
+        alert("Check the database out to see available accounts");
     }
 }
 
